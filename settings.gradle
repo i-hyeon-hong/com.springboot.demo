@@ -1,0 +1,17 @@
+rootProject.name = 'demo'
+sourceSets {
+    main {
+        java {
+            srcDir 'src/main/backEnd/java'
+        }
+        resources {
+            srcDir 'src/main/backEnd/resources'
+        }
+    }
+
+    test {
+        java {
+            srcDir 'src/test/java'
+        }
+    }
+}
